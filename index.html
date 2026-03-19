@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+
+  <title>Music Player App</title>
+</head>
+
+<body>
+  <!-- Main container -->
+  <div class="container">
+    <div class="player">
+      <div class="player-bar">
+        <div class="parallel-lines"><div></div><div></div></div>
+        <h1 class="fcc-title">Media</h1>
+        <div class="parallel-lines"><div></div><div></div></div>
+      </div>
+      <div class="player-content">
+        <div id="player-album-art">
+          <img src="https://cdn.freecodecamp.org/curriculum/js-music-player/digital-drift.jpg" alt="song cover art" />
+        </div>
+
+        <!-- Song controls -->
+        <div class="player-display">
+
+          <!-- Song info -->
+          <div class="player-display-song-artist">
+            <p id="player-song-title"></p>
+            <p id="player-song-artist"></p>
+          </div>
+
+          <!-- Control buttons -->
+          <div class="player-buttons">
+            <button id="previous">⏮</button>
+            <button id="play">▶</button>
+            <button id="pause">⏸</button>
+            <button id="next">⏭</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="playlist">
+      <!-- Playlist-->
+      <div class="playlist-bar">
+        <div class="parallel-lines"><div></div><div></div></div>
+        <h2 class="playlist-title">Playlist</h2>
+        <div class="parallel-lines"><div></div><div></div></div>
+      </div>
+
+      <!-- Song list -->
+      <ul id="playlist-songs">
+
+        <!-- Each song-->
+        <li id="song-0" class="playlist-song">
+          <button class="playlist-song-info">
+            <span class="playlist-song-title">Hello World</span>
+            <span class="playlist-song-artist">Rafael</span>
+            <span class="playlist-song-duration">0:23</span>
+          </button>
+        </li>
+
+        <!-- Repeat songs -->
+        <li id="song-1" class="playlist-song">
+          <button class="playlist-song-info">
+            <span class="playlist-song-title">In the Zone</span>
+            <span class="playlist-song-artist">Rafael</span>
+            <span class="playlist-song-duration">0:11</span>
+          </button>
+        </li>
+
+        <li id="song-2" class="playlist-song">
+          <button class="playlist-song-info">
+            <span class="playlist-song-title">Camper Cat</span>
+            <span class="playlist-song-artist">Rafael</span>
+            <span class="playlist-song-duration">0:21</span>
+          </button>
+        </li>
+
+        <li id="song-3" class="playlist-song">
+          <button class="playlist-song-info">
+            <span class="playlist-song-title">Electronic</span>
+            <span class="playlist-song-artist">Rafael</span>
+            <span class="playlist-song-duration">0:15</span>
+          </button>
+        </li>
+
+        <li id="song-4" class="playlist-song">
+          <button class="playlist-song-info">
+            <span class="playlist-song-title">Sailing Away</span>
+            <span class="playlist-song-artist">Rafael</span>
+            <span class="playlist-song-duration">0:22</span>
+          </button>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
