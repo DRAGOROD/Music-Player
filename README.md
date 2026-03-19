@@ -26,13 +26,13 @@ Structuring code into reusable and readable functions
 
 
 **🚀 Features**
-▶️ Play and resume songs
-⏸ Pause and retain playback position
-⏭ Next / ⏮ Previous track navigation
-📃 Interactive playlist selection
-🎯 Highlight currently playing song
-📱 Responsive design for smaller screens
-♿ Basic accessibility support (ARIA labels)
+Play and resume songs
+Pause and retain playback position
+Next / ⏮ Previous track navigation
+Interactive playlist selection
+Highlight currently playing song
+Responsive design for smaller screens
+Basic accessibility support (ARIA labels)
 
 **🔧 Possible Improvements**
 Add a progress bar / seek control
